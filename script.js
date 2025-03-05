@@ -29,7 +29,7 @@ function playGame() {
         const humanSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
         playRound(humanSelection, computerSelection);
-        console.log(`Human Score: ${humanScore} \nComputer Score: ${computerScore}`)
+        console.log(`Human Score: ${humanScore} \nComputer Score: ${computerScore}`);
     }
 
     function playRound(humanChoice, computerChoice) {
